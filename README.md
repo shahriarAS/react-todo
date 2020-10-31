@@ -1,4 +1,4 @@
-React Todo is a basic To-do List app. You can add, edit, delete and mark a task to complete. Also you can sort all task with simple drag and drop.
+React Todo List is a simple Todo List app. Here you can add, edit or remove your task and also you can mark your task as done or undone. If you want you can drag and drop all task individually and sort them.
 
 # Getting Started with Create React App
 
