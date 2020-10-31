@@ -47,7 +47,7 @@ function Task(props) {
     return (
         <li className="border-b-2 border-green-700 flex justify-between">
             <div className="cursor-pointer">
-                {complete == ture ? <i onClick={markComplete} className="fa fa-check-square mr-2"></i> : <i onClick={markComplete} className="fa fa-square-o mr-2"></i>}
+                {complete == true ? <i onClick={markComplete} className="fa fa-check-square mr-2"></i> : <i onClick={markComplete} className="fa fa-square-o mr-2"></i>}
                 {edit ? (
                     <form className="w-full max-w-sm" onSubmit={updateTask}>
                         <div className="flex items-center border-b border-teal-500 py-2">
